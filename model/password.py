@@ -25,7 +25,6 @@ class BaseModel:
             x = arq.readlines()
         
         results = []
-
         atributos = vars(cls())
         
         for i in x:
